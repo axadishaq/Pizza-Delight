@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Pizza Delight | The Best Pizza In Town!</title>
+      
+      <link
+         rel="icon"
+         href="https://cdn-icons-png.flaticon.com/512/3595/3595455.png"
+         type="image/png" />
+
+      <!-- Bootstrap CSS -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet" />
+      <!-- Bootstrap Icons -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+         rel="stylesheet" />
+      
+   </head>
+   <body>
+      <!-- Header Section -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+         <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">Pizza Delight</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarNav">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#order">Order Online</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#order" class="btn btn-primary ms-3">Order Now</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section
+         class="hero-section d-flex align-items-center justify-content-center text-center"
+         id="home">
+         <div class="container">
+            <h1 class="display-4 fw-bold text-white mb-4">
+               The Best Pizza In Town!
+            </h1>
+            <div>
+               <a href="#" class="btn btn-primary btn-lg me-3">View Menu</a>
+               <a href="#" class="btn btn-outline-light btn-lg">Book a Table</a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Featured Pizzas Section -->
+      <section id="menu" class="featured-pizzas py-5">
+         <div class="container text-center">
+            <h2 class="mb-5 fw-bold">🍕 Our Signature Pizzas</h2>
+            <div class="row g-4">
+               <!-- Pizza Card 1 -->
+               <div class="col-md-4">
+                  <div class="card pizza-card h-100">
+                     <img
+                        src="https://plus.unsplash.com/premium_photo-1667682942148-a0c98d1d70db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGlra2ElMjBwaXp6YXxlbnwwfHwwfHx8MA%3D%3D"
+                        class="card-img-top"
+                        alt="Margherita Pizza" />
+                     <div class="card-body">
+                        <h5 class="card-title">Classic Margherita</h5>
+                        <p class="card-text">
+                           Fresh mozzarella, basil & tomato sauce on a crispy
+                           crust.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Pizza Card 2 -->
+               <div class="col-md-4">
+                  <div class="card pizza-card h-100">
+                     <img
+                        src="https://images.unsplash.com/photo-1590947132387-155cc02f3212?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBpenphfGVufDB8fDB8fHww"
+                        class="card-img-top"
+                        alt="Pepperoni Pizza" />
+                     <div class="card-body">
+                        <h5 class="card-title">Pepperoni Blast</h5>
+                        <p class="card-text">
+                           Loaded with spicy pepperoni and melty cheese
+                           perfection.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Pizza Card 3 -->
+               <div class="col-md-4">
+                  <div class="card pizza-card h-100">
+                     <img
+                        src="https://plus.unsplash.com/premium_photo-1661762555601-47d088a26b50?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGl6emF8ZW58MHx8MHx8fDA%3D"
+                        class="card-img-top"
+                        alt="Veggie Supreme" />
+                     <div class="card-body">
+                        <h5 class="card-title">Veggie Supreme</h5>
+                        <p class="card-text">
+                           A colorful mix of fresh veggies and creamy cheese.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-sm">Order Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section id="about" class="about-us py-5">
+         <div class="container">
+            <div class="row align-items-center g-5">
+               <!-- Image Column -->
+               <div class="col-md-6">
+                  <img
+                     src="https://images.unsplash.com/photo-1566843972142-a7fcb70de55a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHBpenphfGVufDB8fDB8fHww"
+                     alt="Pizza Delight Interior"
+                     class="img-fluid rounded-4 shadow-lg" />
+               </div>
+               <!-- Text Column -->
+               <div class="col-md-6">
+                  <h2 class="fw-bold mb-4">🍽 About Pizza Delight</h2>
+                  <p class="mb-3" style="line-height: 1.8">
+                     Since 2005, <strong>Pizza Delight</strong> has been serving
+                     up mouth-watering, handcrafted pizzas using fresh, locally
+                     sourced ingredients. Our passion for authentic flavors and
+                     warm hospitality has made us a neighborhood favorite.
+                  </p>
+                  <p style="line-height: 1.8">
+                     From classic Margherita to bold, creative specialties, each
+                     pizza is a celebration of tradition and taste. Join us for
+                     a slice of happiness today!
+                  </p>
+                  <a href="#" class="btn btn-primary mt-3">Learn More</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Why Choose Us Section -->
+      <section class="why-choose-us py-5 text-center">
+         <div class="container">
+            <h2 class="fw-bold mb-5">✨ Why Choose Pizza Delight?</h2>
+            <div class="row g-4 mb-5">
+               <!-- Feature 1 -->
+               <div class="col-md-4">
+                  <div class="p-4 feature-card">
+                     <div class="mb-3">
+                        <i class="bi bi-emoji-smile fs-1 text-warning"></i>
+                     </div>
+                     <h5>Fresh Ingredients</h5>
+                     <p>
+                        We use only the freshest local produce and quality
+                        ingredients in every pizza.
+                     </p>
+                  </div>
+               </div>
+               <!-- Feature 2 -->
+               <div class="col-md-4">
+                  <div class="p-4 feature-card">
+                     <div class="mb-3">
+                        <i class="bi bi-truck fs-1 text-warning"></i>
+                     </div>
+                     <h5>Fast Delivery</h5>
+                     <p>
+                        Hot and delicious pizza delivered to your doorstep in
+                        under 30 minutes.
+                     </p>
+                  </div>
+               </div>
+               <!-- Feature 3 -->
+               <div class="col-md-4">
+                  <div class="p-4 feature-card">
+                     <div class="mb-3">
+                        <i class="bi bi-award fs-1 text-warning"></i>
+                     </div>
+                     <h5>Authentic Taste</h5>
+                     <p>
+                        Wood-fired ovens and traditional recipes give our pizzas
+                        an unbeatable taste.
+                     </p>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Counters -->
+            <div class="row g-4">
+               <div class="col-md-6">
+                  <div class="counter-box p-4">
+                     <h3 class="fw-bold">
+                        <span class="counter" data-target="5000">5000</span>+
+                     </h3>
+                     <p>Happy Customers</p>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="counter-box p-4">
+                     <h3 class="fw-bold">
+                        <span class="counter" data-target="15">15</span>+ Years
+                     </h3>
+                     <p>Serving Quality Pizza</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Counter Animation Script -->
+      <script>
+         const counters = document.querySelectorAll(".counter");
+         counters.forEach((counter) => {
+            const updateCount = () => {
+               const target = +counter.getAttribute("data-target");
+               const count = +counter.innerText;
+               const speed = 100; // lower = faster
+               const increment = target / speed;
+
+               if (count < target) {
+                  counter.innerText = Math.ceil(count + increment);
+                  setTimeout(updateCount, 20);
+               } else {
+                  counter.innerText = target;
+               }
+            };
+            updateCount();
+         });
+      </script>
+
+      <!-- Customer Reviews Section -->
+      <section class="customer-reviews py-5">
+         <div class="container text-center">
+            <h2 class="fw-bold mb-5">❤️ What Our Customers Say</h2>
+            <div
+               id="reviewsCarousel"
+               class="carousel slide"
+               data-bs-ride="carousel">
+               <div class="carousel-inner">
+                  <!-- Review 1 -->
+                  <div class="carousel-item active">
+                     <div class="review-card mx-auto p-4">
+                        <img
+                           src="https://randomuser.me/api/portraits/women/44.jpg"
+                           class="rounded-circle mb-3"
+                           alt="Customer 1"
+                           width="80"
+                           height="80" />
+                        <h5>Emily Johnson</h5>
+                        <p class="text-muted mb-2">
+                           "Absolutely the best pizza I’ve ever had! The crust
+                           is perfectly crisp and the toppings are so fresh!"
+                        </p>
+                        <div class="stars text-warning mb-2">
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-half"></i>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Review 2 -->
+                  <div class="carousel-item">
+                     <div class="review-card mx-auto p-4">
+                        <img
+                           src="https://randomuser.me/api/portraits/men/32.jpg"
+                           class="rounded-circle mb-3"
+                           alt="Customer 2"
+                           width="80"
+                           height="80" />
+                        <h5>Michael Lee</h5>
+                        <p class="text-muted mb-2">
+                           "Fast delivery and amazing flavors! The Pepperoni
+                           Blast is my go-to every weekend."
+                        </p>
+                        <div class="stars text-warning mb-2">
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- Review 3 -->
+                  <div class="carousel-item">
+                     <div class="review-card mx-auto p-4">
+                        <img
+                           src="https://randomuser.me/api/portraits/women/65.jpg"
+                           class="rounded-circle mb-3"
+                           alt="Customer 3"
+                           width="80"
+                           height="80" />
+                        <h5>Sophia Martinez</h5>
+                        <p class="text-muted mb-2">
+                           "The authentic wood-fired flavor is unbeatable. I
+                           love the cozy vibe and friendly staff."
+                        </p>
+                        <div class="stars text-warning mb-2">
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                           <i class="bi bi-star-fill"></i>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <!-- Carousel controls -->
+               <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#reviewsCarousel"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+               </button>
+               <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#reviewsCarousel"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+               </button>
+            </div>
+         </div>
+      </section>
+
+      <!-- Order Online Section -->
+      <section id="order" class="order-online py-5 text-center">
+         <div class="container">
+            <h2 class="fw-bold mb-5">🍕 Order Online & Enjoy Hot Deals!</h2>
+            <div class="row g-4">
+               <!-- Deal 1 -->
+               <div class="col-md-4">
+                  <div class="deal-card p-4">
+                     <img
+                        src="https://plus.unsplash.com/premium_photo-1673439306780-2b457e65da70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHBpenphfGVufDB8fDB8fHww"
+                        class="img-fluid mb-3 rounded"
+                        alt="Family Combo" />
+                     <h5>Family Combo</h5>
+                     <p>2 Large Pizzas + Garlic Bread + 1.5L Drink</p>
+                     <h6 class="fw-bold text-danger mb-3">$29.99</h6>
+                     <a href="#" class="btn btn-primary"
+                        >Customize & Order Now</a
+                     >
+                  </div>
+               </div>
+
+               <!-- Deal 2 -->
+               <div class="col-md-4">
+                  <div class="deal-card p-4">
+                     <img
+                        src="https://images.unsplash.com/photo-1573821663912-569905455b1c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzZ8fHBpenphfGVufDB8fDB8fHww"
+                        class="img-fluid mb-3 rounded"
+                        alt="Solo Feast" />
+                     <h5>Solo Feast</h5>
+                     <p>1 Medium Pizza + Fries + Drink</p>
+                     <h6 class="fw-bold text-danger mb-3">$14.99</h6>
+                     <a href="#" class="btn btn-primary"
+                        >Customize & Order Now</a
+                     >
+                  </div>
+               </div>
+
+               <!-- Deal 3 -->
+               <div class="col-md-4">
+                  <div class="deal-card p-4">
+                     <img
+                        src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80"
+                        class="img-fluid mb-3 rounded"
+                        alt="Party Pack" />
+                     <h5>Party Pack</h5>
+                     <p>3 Large Pizzas + 2 Garlic Breads + 2L Drink</p>
+                     <h6 class="fw-bold text-danger mb-3">$44.99</h6>
+                     <a href="#" class="btn btn-primary"
+                        >Customize & Order Now</a
+                     >
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Newsletter Signup Section -->
+      <section class="newsletter-signup py-5 text-center">
+         <div class="container">
+            <h2 class="fw-bold mb-4">🍕 Stay in the Pizza Loop!</h2>
+            <p class="mb-4">
+               Sign up for exclusive deals, new pizza drops, and delicious
+               updates straight to your inbox.
+            </p>
+            <form class="row g-3 justify-content-center">
+               <div class="col-md-6">
+                  <input
+                     type="email"
+                     class="form-control form-control-lg"
+                     placeholder="Enter your email"
+                     required />
+               </div>
+               <div class="col-auto">
+                  <button type="submit" class="btn btn-primary btn-lg">
+                     Subscribe <span>📬</span>
+                  </button>
+               </div>
+            </form>
+         </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer id="contact" class="footer py-5">
+         <div class="container">
+            <div class="row">
+               <!-- Contact Info -->
+               <div class="col-md-4 mb-4">
+                  <h5 class="fw-bold text-white mb-3">Pizza Delight</h5>
+                  <p class="">123 Pizza Street, Flavor Town, USA</p>
+                  <p class="">Phone: (123) 456-7890</p>
+                  <p class="">Email: info@pizzadelight.com</p>
+               </div>
+
+               <!-- Quick Links -->
+               <div class="col-md-4 mb-4">
+                  <h5 class="fw-bold text-white mb-3">Quick Links</h5>
+                  <ul class="list-unstyled">
+                     <li>
+                        <a href="#" class="text-decoration-none">Menu</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-decoration-none">Careers</a>
+                     </li>
+                     <li>
+                        <a href="#" class="text-decoration-none"
+                           >Terms & Conditions</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+
+               <!-- Social Media -->
+               <div class="col-md-4 mb-4">
+                  <h5 class="fw-bold text-white mb-3">Follow Us</h5>
+                  <div class="d-flex gap-3">
+                     <a href="#" class="fs-4"
+                        ><i class="bi bi-instagram"></i
+                     ></a>
+                     <a href="#" class="fs-4"><i class="bi bi-facebook"></i></a>
+                     <a href="#" class="fs-4"
+                        ><i class="bi bi-twitter-x"></i
+                     ></a>
+                  </div>
+               </div>
+            </div>
+            <hr class="border-light" />
+            <p class="text-center mb-0">
+               &copy; 2025 Pizza Delight. All Rights Reserved. Created by
+               Asad✨❤🐱‍👤😎
+            </p>
+         </div>
+      </footer>
+
+      <!-- Bootstrap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
